@@ -70,7 +70,7 @@ function edc_register_record( $meta_boxes ) {
                         'name'  => __( 'Raw HTML', 'textdomain' ),
                         'desc'  => '',
                         'id'    => $prefix . 'block_raw',
-                        'type'  => 'textarea',
+                        'type'  => 'custom_html',
                         'visible' => array( 'edc_block_fields', '=', 'html' )
                     ),
                     array(
